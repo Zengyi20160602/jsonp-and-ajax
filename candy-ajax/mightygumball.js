@@ -1,5 +1,5 @@
 window.onload = function() {
-	var url = "http://localhost/candy/sales.json";
+	var url = "http://blog.dongtata.top/jsonp-and-ajax/candy-ajax/sales.json";
 	var http = new XMLHttpRequest();
 	http.onload = function() {
 		if (http.status == 200) {
